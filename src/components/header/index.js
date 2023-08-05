@@ -10,9 +10,9 @@ const Header = () => {
           <FaPlayCircle /> NETFILMS
         </Link>
         <nav className={styles.navigationMenu}>
-          <Link href="/">MOVIES</Link>
-          <Link href="/">SERIES</Link>
-          <Link href="/">KIDS</Link>
+          <Link href="/movies">MOVIES</Link>
+          <Link href="/series">SERIES</Link>
+          <Link href="/kids">KIDS</Link>
         </nav>
       </div>
     </header>

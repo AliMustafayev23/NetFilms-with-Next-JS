@@ -1,3 +1,11 @@
-export default function Home() {
-  return <div className="App">Hello</div>;
-}
+import React from "react";
+import HomeContainer from "../containers/home";
+const HomePage = () => {
+  return (
+    <div>
+      <HomeContainer />
+    </div>
+  );
+};
+
+export default HomePage;
